@@ -13,8 +13,8 @@ int ** create(int r, int c)
 int ** add(int **m1, int **m2, int r,int c)
 {
     int **m3=create(r,c);
-    // int r=sizeof(m1)/sizeof(*m1);
-    // int c=sizeof(*m1)/sizeof(**m1);
+    // int r=sizeof(m1)/sizeof(*m1); WIll not work
+    // int c=sizeof(*m1)/sizeof(**m1); because it is in a called function
 
     for(register int i=0;i<r;i++)
     {
