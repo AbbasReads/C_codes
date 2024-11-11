@@ -41,7 +41,7 @@ int main()
       for(register int j=0;j<c;j++)   
         *(m2[i]+j)=i-j;
     }
-    int **m3=add(m1,m2,r,c);
+       int **m3=add(m1,m2,r,c);
     for(register int i=0;i<r;i++)
     {
       for(register int j=0;j<c;j++)

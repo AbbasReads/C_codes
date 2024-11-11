@@ -2,11 +2,25 @@
 #include "math.h"
 
 int main() {
-    unsigned long long m, n, a;
-    scanf("%llu %llu %llu  ", &m, &n, &a);
-    unsigned long long l1 = ceil((float)m/a);
-    unsigned long long l2 = ceil((float)n/a);
-    unsigned long long max = l1 * l2;
-    printf("%llu", max);
-    return 0;
+    // char str[] = "Go to hell";
+    // str[4]='k';
+    // char *p = "Mamma Happy birhtday";
+    // // *(p+3='k';
+    // int *str;
+    // int **p;
+    // printf("%d %d", sizeof(str),sizeof(p));
+    // int i=120;
+    // float j = 43.567;
+    // printf("%07.3f\n", j);
+    // printf("%d", j==43.567);
+
+static int i=9;
+int i =4;
+{
+    int i=7;
+    printf("%d", i);
+}   
+    
+    
+    
 }
